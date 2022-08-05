@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link CSS -->
+
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Gran Hotel Avenida</title>
+
+</head>
+
+<body>
+
+    <main>
+        <h1 class="titulo">Bienvenidos al Gran Hotel Avenida</h1>
+
+        <div>
+            <form id="formulario" action="">
+                <fieldset>
+                    <legend>ESCRIBINOS</legend>
+                    <div>
+                        <label for="nombre">
+                            Completa tu nombre
+                        </label>
+                        <input type="text" name="nombre" placeholder="Nombre y Apellido" value="">
+                    </div>
+
+                    <div>
+                        <label for="apellido">
+                            Completa tu Apellido
+                        </label>
+                        <input type="text" name="apellido" placeholder="Ingresa tu Apellido" value="">
+                    </div>
+
+                    <div>
+                        <label for="edad">
+                            Completa tu Edad
+                        </label>
+                        <input type="number" name="edad" placeholder="Ingresa tu edad" value="">
+                       
+                    </div>
+
+                    <div>
+                        <label for="cantidadPax">
+                            Completa Cantidad Pax
+                        </label>
+                        <input type="number" name="edad" placeholder="Ingresa cantidad Pax" value="">
+
+                       
+                    </div>
+
+
+                    <div>
+
+                        <label for="cantidadNoches">Cantidad de Noches</label>
+                                                
+                        <div class="sumar">+</div>
+
+                        <div class="numero">click</div>
+
+                         <div class="restar">-</div>
+                    </div>
+
+                    <div>
+                        <input class="btnEnviar" type="submit" value="Enviar">
+                        <input class="btnResetear" type="reset" value="Resetear">
+                    </div>
+                </fieldset>
+            </form>
+
+            <p class="error"></p>
+        </div>
+    </main>
+    <script src="./js/home.js"></script>
+</body>
+
+</html>
